@@ -82,4 +82,5 @@ for idx, msg in enumerate(st.session_state.messages):
                     st.session_state.expanded[idx] = True
                     st.rerun()
         else:
+
             st.markdown(f"🤖 Bot: {content}")
